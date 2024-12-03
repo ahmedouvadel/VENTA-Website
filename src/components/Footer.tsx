@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer className="bg-gray-800 text-white py-8 font-['Poppins']">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -21,11 +21,11 @@ export function Footer() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contactez-nous</h3>
             <p className="text-gray-300">Email: info@venta.com</p>
-            <p className="text-gray-300">Téléphone: +1 234 567 890</p>
+            <p className="text-gray-300">Téléphone: +222 43753805</p>
           </div>
         </div>
         <div className="mt-8 text-center text-gray-300">
-          <p>&copy; 2023 VENTA. Tous droits réservés.</p>
+          <p>&copy; 2024 VENTA. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

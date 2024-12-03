@@ -26,7 +26,10 @@ export function RoleSection() {
   
 
   return (
-    <section className="py-12 bg-white">
+    <section className="flex flex-col py-12 bg-white items-center gap-5">
+      <div className=" m-5 ">
+      <span className="flex flex-row gap-2 text-3xl text-zinc-800 font-['Poppins'] font-bold">Nous<p className="font-light text-orange-500"> offre</p> </span>
+      </div>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {roles.map((role, index) => (
