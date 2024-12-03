@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import liv from "@/img/liv.png"
 
 export function Hero() {
   return (
@@ -11,7 +12,7 @@ export function Hero() {
           </p>
         </div>
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <Image src="/placeholder.svg" alt="Venta Welcome" width={500} height={300} className="rounded-lg shadow-md" />
+          <Image src={liv} alt="Venta Welcome" width={500} height={300} className="rounded-lg shadow-md" />
         </div>
         
       </div>
