@@ -5,9 +5,9 @@ export function Hero() {
   return (
     <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10">
-      <div className="md:w-1/2 md:pl-12">
+      <div className=" flex flex-col md:w-1/2 ">
           <h1 className="text-4xl font-bold mb-4 text-zinc-800 font-['Poppins']">Bienvenue à VENTA</h1>
-          <p className="text-xl text-gray-600 mb-6 font-['Poppins']">
+          <p className="text-xl text-gray-600 mb-6 font-['Poppins'] w-9/12">
             Découvrez une nouvelle façon de commander et de livrer vos repas préférés. VENTA vous offre une expérience culinaire unique et pratique.
           </p>
         </div>

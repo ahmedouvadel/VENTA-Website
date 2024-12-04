@@ -26,14 +26,14 @@ export function RoleSection() {
   
 
   return (
-    <section className="flex flex-col py-12 bg-white items-center gap-5">
+    <section id="services"  className="flex flex-col py-12 bg-white items-center gap-5">
       <div className=" m-5 ">
-      <span className="flex flex-row gap-2 text-3xl text-zinc-800 font-['Poppins'] font-bold">Nous<p className="font-light text-orange-500"> offre</p> </span>
+      <span className="flex flex-row gap-2 text-3xl text-zinc-800 font-['Poppins'] font-bold">Nos<p className="font-light text-orange-500"> Offres</p> </span>
       </div>
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {roles.map((role, index) => (
-            <div key={index} className="flex flex-col justify-center gap-4">
+            <div key={index} className="flex flex-col justify-center gap-5">
               {/* Replace Image with img for debugging */}
               <Image
                 src={role.image}
@@ -42,7 +42,7 @@ export function RoleSection() {
               />
               <p className="text-2xl font-bold mb-2 text-gray-900 font-['Poppins']">{role.title}</p>
               <span className=" text-gray-700 text-base font-['Poppins'] font-semibold h-20">{role.description}</span>
-              <Button className="p-6 w-40 rounded-xl text-slate-50 text-xl" style={{ backgroundColor: "#F7A400" }}>S'inscrire</Button>
+              <Button className="p-6 w-40 rounded-xl text-slate-50 text-xl font-medium" style={{ backgroundColor: "#F7A400" }}>S'inscrire</Button>
             </div>
           ))}
         </div>
